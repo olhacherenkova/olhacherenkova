@@ -89,8 +89,6 @@ body {
     flex-wrap: wrap;
 }
 
-.menu__item {}
-
 .menu__item:not(:last-child) {
     margin: 0px 21px 0px 0px;
 }
@@ -99,7 +97,6 @@ body {
     color: #737373;
     font-weight: 600;
     line-height: 171%;
-    letter-spacing: 0.20000000298023224px;
     text-align: center;
 }
 
@@ -135,6 +132,9 @@ body {
 
 .info {
     width: 60%;
+}
+
+.block {
     padding: 20px;
 }
 
@@ -178,14 +178,14 @@ h2 {
 }
 
 .icons {
-    background-color: #4b4242;
+    background-color: #7e7ebb;
+    padding: 10px;
     text-align: center;
 }
 
 .icons__link {
     padding: 5px;
     color: #737373;
-    border-radius: 50%;
 }
 
 
@@ -194,15 +194,15 @@ h2 {
 .courses,
 .education,
 .work,
-.slills {
+.skills {
     max-width: 70%;
     background-color: white;
     display: block;
     margin: 0 auto;
 }
 
-.study__item {
-    color: #1d1d1d;
+.item {
+    color: #7e7ebb;
     font-size: 22px;
     line-height: 30px;
     font-weight: 900;
@@ -212,7 +212,7 @@ h2 {
     padding-top: 20px;
 }
 
-.study p {
+.text {
     margin: 0 auto;
     color: #4b4242;
     font-size: 13px;
@@ -221,13 +221,39 @@ h2 {
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.33px;
-    padding: 23px;
+    padding: 0px 0px 10px 10px;
 }
 
 .courses,
 .work,
-.slills {
+.skills {
     margin-top: 20px;
+}
+
+.skills__block {
+    display: flex;
+    padding: 10px;
+}
+
+.skills__item {
+    color: #1d1d1d;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    padding-right: 10px;
+}
+
+.skills__text {
+    color: #1d1d1d;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
 }
 
 
